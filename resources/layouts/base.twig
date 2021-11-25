@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="/base.scss">
+</head>
+
+<body class="Layout">
+<header class="Layout_header">
+    {% include '@components/header/header.twig' %}
+</header>
+
+<main class="Layout_main">
+    {% block main %}{% endblock %}
+</main>
+
+<footer class="Layout_footer">
+    {% include '@components/footer/footer.twig' %}
+</footer>
+<script type="text/javascript" src="/build/bundle.js"></script>
+</body>
+</html>

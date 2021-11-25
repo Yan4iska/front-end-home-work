@@ -1,0 +1,12 @@
+.Layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    &__main {
+        flex: 1;
+    }
+}
+
+.Layout_header h1 {
+    color: red;
+}
